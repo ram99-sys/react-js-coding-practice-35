@@ -1,0 +1,32 @@
+/* Write your CSS here */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.app-container {
+  background-color: #1e293b;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 80px;
+  font-weight: bold;
+  color: #f0bb03;
+  margin-bottom: 30px;
+}
+.text {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
